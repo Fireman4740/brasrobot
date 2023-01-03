@@ -1,0 +1,26 @@
+
+2023-01-03 13:54:16,283 - __main__ - ERROR : prototype : state_changed_callback : state=4, quit
+2023-01-03 13:55:32,700 - __main__ - ERROR : prototype : state_changed_callback : state=4, quit
+2023-01-03 13:56:51,247 - __main__ - ERROR : prototype : state_changed_callback : state=4, quit
+2023-01-03 13:58:50,469 - __main__ - ERROR : prototype : <module> : set_position, code=-9
+2023-01-03 14:27:58,172 - __main__ - ERROR : prototype : <module> : Exception in 
+Traceback (most recent call last):
+  File "d:\nao\brasrobot\prototype.py", line 38, in <module>
+    arm = XArmAPI(data.ip, baud_checkset=False)
+AttributeError: 'dict' object has no attribute 'ip'
+2023-01-03 14:28:14,130 - __main__ - ERROR : prototype : <module> : Exception in 
+Traceback (most recent call last):
+  File "d:\nao\brasrobot\prototype.py", line 38, in <module>
+    arm = XArmAPI(str(data.ip), baud_checkset=False)
+AttributeError: 'dict' object has no attribute 'ip'
+2023-01-03 14:28:40,413 - __main__ - ERROR : prototype : <module> : Exception in 
+Traceback (most recent call last):
+  File "d:\nao\brasrobot\prototype.py", line 38, in <module>
+    arm = XArmAPI(str(data.ip_robots), baud_checkset=False)
+AttributeError: 'dict' object has no attribute 'ip_robots'
+2023-01-03 14:56:35,222 - __main__ - ERROR : prototype : state_changed_callback : state=4, quit
+2023-01-03 14:56:35,226 - __main__ - ERROR : prototype : move_robot : set_position, code=1
+2023-01-03 15:13:50,977 - __main__ - ERROR : prototype : state_changed_callback : state=4, quit
+2023-01-03 15:13:51,029 - __main__ - ERROR : prototype : move_robot : set_position, code=1
+2023-01-03 15:14:57,351 - __main__ - ERROR : prototype : state_changed_callback : state=4, quit
+2023-01-03 15:14:57,407 - __main__ - ERROR : prototype : move_robot : set_position, code=1

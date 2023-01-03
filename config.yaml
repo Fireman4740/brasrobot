@@ -1,0 +1,21 @@
+ip_robots: 10.100.100.66
+speed_move: 3500
+mvacc: 3500
+position_1:
+  x: 300
+  y: -100
+  z: 200
+  roll: -180
+  pitch: 0
+  yaw: 0
+position_2:
+  x: 80
+  y: -350
+  z: 200
+  roll: -180
+  pitch: 0
+  yaw: 90
+
+speed_gripper: 10000
+gripper_position_1: 300
+gripper_position_2: 700
