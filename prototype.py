@@ -17,22 +17,24 @@ from xarm.wrapper import XArmAPI
 import logging
 from logging import config
 import json 
+with open("config.yaml","r") as f:
+        data= yaml.safe_load(f)
 
-with open('logConfig.json','r') as f:
+with open(data["logConfigfile"],'r') as f:
     config = json.load(f)
     logging.config.dictConfig(config)
 ################ Logger #################
-logger = logging.getLogger(__name__)
-
-# logger.debug("Inside Addition Function")
+logger = logging.getLogger("__main__")
+logger.debug("Inside Addition Function")
+# 
     # logger.warning("Warning : Parameter A is passed as String. Future versions won't support it.")
     # logger.info("Addition Function Completed Successfully")
     
 
 if __name__ == "__main__":
     params = {'events': {}, 'callback_in_thread': True, 'quit': False}
-    with open("config.yaml","r") as f:
-        data= yaml.safe_load(f)
+    
+    
     
     try:
         arm = XArmAPI(data["ip_robots"], baud_checkset=False)

@@ -1,4 +1,5 @@
 ip_robots: 10.100.100.66
+logConfigfile: logConfig.json
 speed_move: 3500
 mvacc: 3500
 position_1:
@@ -18,4 +19,4 @@ position_2:
 
 speed_gripper: 10000
 gripper_position_1: 300
-gripper_position_2: 700
+gripper_position_2: 800

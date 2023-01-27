@@ -24,3 +24,94 @@ AttributeError: 'dict' object has no attribute 'ip_robots'
 2023-01-03 15:13:51,029 - __main__ - ERROR : prototype : move_robot : set_position, code=1
 2023-01-03 15:14:57,351 - __main__ - ERROR : prototype : state_changed_callback : state=4, quit
 2023-01-03 15:14:57,407 - __main__ - ERROR : prototype : move_robot : set_position, code=1
+2023-01-11 09:20:07,768 - __main__ - ERROR : prototype : <module> : Exception in 
+Traceback (most recent call last):
+  File "/Users/mathiscarlesso/Documents/Stage-MRC/barsv0/brasrobot/prototype.py", line 38, in <module>
+    arm = XArmAPI(data["ip_robots"], baud_checkset=False)
+  File "/opt/anaconda3/envs/object/lib/python3.10/site-packages/xArm_Python_SDK-1.11.6-py3.10.egg/xarm/wrapper/xarm_api.py", line 83, in __init__
+    self._arm = XArm(port=port,
+  File "/opt/anaconda3/envs/object/lib/python3.10/site-packages/xArm_Python_SDK-1.11.6-py3.10.egg/xarm/x3/xarm.py", line 44, in __init__
+    Base.__init__(self, port, is_radian, do_not_open, **kwargs)
+  File "/opt/anaconda3/envs/object/lib/python3.10/site-packages/xArm_Python_SDK-1.11.6-py3.10.egg/xarm/x3/base.py", line 231, in __init__
+    self.connect()
+  File "/opt/anaconda3/envs/object/lib/python3.10/site-packages/xArm_Python_SDK-1.11.6-py3.10.egg/xarm/x3/base.py", line 821, in connect
+    raise Exception('connect socket failed')
+Exception: connect socket failed
+2023-01-11 09:21:15,530 - __main__ - ERROR : prototype : <module> : Exception in 
+Traceback (most recent call last):
+  File "/Users/mathiscarlesso/Documents/Stage-MRC/barsv0/brasrobot/prototype.py", line 38, in <module>
+    arm = XArmAPI(data["ip_robots"], baud_checkset=False)
+  File "/opt/anaconda3/envs/object/lib/python3.10/site-packages/xArm_Python_SDK-1.11.6-py3.10.egg/xarm/wrapper/xarm_api.py", line 83, in __init__
+    self._arm = XArm(port=port,
+  File "/opt/anaconda3/envs/object/lib/python3.10/site-packages/xArm_Python_SDK-1.11.6-py3.10.egg/xarm/x3/xarm.py", line 44, in __init__
+    Base.__init__(self, port, is_radian, do_not_open, **kwargs)
+  File "/opt/anaconda3/envs/object/lib/python3.10/site-packages/xArm_Python_SDK-1.11.6-py3.10.egg/xarm/x3/base.py", line 231, in __init__
+    self.connect()
+  File "/opt/anaconda3/envs/object/lib/python3.10/site-packages/xArm_Python_SDK-1.11.6-py3.10.egg/xarm/x3/base.py", line 821, in connect
+    raise Exception('connect socket failed')
+Exception: connect socket failed
+2023-01-11 12:08:41,275 - __main__ - ERROR : prototype : <module> : Exception in 
+Traceback (most recent call last):
+  File "/Users/mathiscarlesso/Documents/Stage-MRC/barsv0/brasrobot/prototype.py", line 38, in <module>
+    arm = XArmAPI(data["ip_robots"], baud_checkset=False)
+  File "/opt/anaconda3/envs/object/lib/python3.10/site-packages/xArm_Python_SDK-1.11.6-py3.10.egg/xarm/wrapper/xarm_api.py", line 83, in __init__
+    self._arm = XArm(port=port,
+  File "/opt/anaconda3/envs/object/lib/python3.10/site-packages/xArm_Python_SDK-1.11.6-py3.10.egg/xarm/x3/xarm.py", line 44, in __init__
+    Base.__init__(self, port, is_radian, do_not_open, **kwargs)
+  File "/opt/anaconda3/envs/object/lib/python3.10/site-packages/xArm_Python_SDK-1.11.6-py3.10.egg/xarm/x3/base.py", line 231, in __init__
+    self.connect()
+  File "/opt/anaconda3/envs/object/lib/python3.10/site-packages/xArm_Python_SDK-1.11.6-py3.10.egg/xarm/x3/base.py", line 821, in connect
+    raise Exception('connect socket failed')
+Exception: connect socket failed
+2023-01-11 12:08:47,816 - __main__ - ERROR : prototype : <module> : Exception in 
+Traceback (most recent call last):
+  File "/Users/mathiscarlesso/Documents/Stage-MRC/barsv0/brasrobot/prototype.py", line 38, in <module>
+    arm = XArmAPI(data["ip_robots"], baud_checkset=False)
+  File "/opt/anaconda3/envs/object/lib/python3.10/site-packages/xArm_Python_SDK-1.11.6-py3.10.egg/xarm/wrapper/xarm_api.py", line 83, in __init__
+    self._arm = XArm(port=port,
+  File "/opt/anaconda3/envs/object/lib/python3.10/site-packages/xArm_Python_SDK-1.11.6-py3.10.egg/xarm/x3/xarm.py", line 44, in __init__
+    Base.__init__(self, port, is_radian, do_not_open, **kwargs)
+  File "/opt/anaconda3/envs/object/lib/python3.10/site-packages/xArm_Python_SDK-1.11.6-py3.10.egg/xarm/x3/base.py", line 231, in __init__
+    self.connect()
+  File "/opt/anaconda3/envs/object/lib/python3.10/site-packages/xArm_Python_SDK-1.11.6-py3.10.egg/xarm/x3/base.py", line 821, in connect
+    raise Exception('connect socket failed')
+Exception: connect socket failed
+2023-01-11 12:13:48,163 - __main__ - ERROR : prototype : <module> : Exception in 
+Traceback (most recent call last):
+  File "/Users/mathiscarlesso/Documents/Stage-MRC/barsv0/brasrobot/prototype.py", line 38, in <module>
+    arm = XArmAPI(data["ip_robots"], baud_checkset=False)
+  File "/opt/anaconda3/envs/object/lib/python3.10/site-packages/xArm_Python_SDK-1.11.6-py3.10.egg/xarm/wrapper/xarm_api.py", line 83, in __init__
+    self._arm = XArm(port=port,
+  File "/opt/anaconda3/envs/object/lib/python3.10/site-packages/xArm_Python_SDK-1.11.6-py3.10.egg/xarm/x3/xarm.py", line 44, in __init__
+    Base.__init__(self, port, is_radian, do_not_open, **kwargs)
+  File "/opt/anaconda3/envs/object/lib/python3.10/site-packages/xArm_Python_SDK-1.11.6-py3.10.egg/xarm/x3/base.py", line 231, in __init__
+    self.connect()
+  File "/opt/anaconda3/envs/object/lib/python3.10/site-packages/xArm_Python_SDK-1.11.6-py3.10.egg/xarm/x3/base.py", line 821, in connect
+    raise Exception('connect socket failed')
+Exception: connect socket failed
+2023-01-27 10:37:26,509 - __main__ - ERROR : prototype : <module> : Exception in 
+Traceback (most recent call last):
+  File "/Users/mathiscarlesso/Documents/Stage-MRC/barsv0/brasrobot/prototype.py", line 40, in <module>
+    arm = XArmAPI(data["ip_robots"], baud_checkset=False)
+  File "/opt/anaconda3/envs/object/lib/python3.10/site-packages/xArm_Python_SDK-1.11.6-py3.10.egg/xarm/wrapper/xarm_api.py", line 83, in __init__
+    self._arm = XArm(port=port,
+  File "/opt/anaconda3/envs/object/lib/python3.10/site-packages/xArm_Python_SDK-1.11.6-py3.10.egg/xarm/x3/xarm.py", line 44, in __init__
+    Base.__init__(self, port, is_radian, do_not_open, **kwargs)
+  File "/opt/anaconda3/envs/object/lib/python3.10/site-packages/xArm_Python_SDK-1.11.6-py3.10.egg/xarm/x3/base.py", line 231, in __init__
+    self.connect()
+  File "/opt/anaconda3/envs/object/lib/python3.10/site-packages/xArm_Python_SDK-1.11.6-py3.10.egg/xarm/x3/base.py", line 821, in connect
+    raise Exception('connect socket failed')
+Exception: connect socket failed
+2023-01-27 10:38:12,169 - __main__ - ERROR : prototype : <module> : Exception in 
+Traceback (most recent call last):
+  File "/Users/mathiscarlesso/Documents/Stage-MRC/barsv0/brasrobot/prototype.py", line 40, in <module>
+    arm = XArmAPI(data["ip_robots"], baud_checkset=False)
+  File "/opt/anaconda3/envs/object/lib/python3.10/site-packages/xArm_Python_SDK-1.11.6-py3.10.egg/xarm/wrapper/xarm_api.py", line 83, in __init__
+    self._arm = XArm(port=port,
+  File "/opt/anaconda3/envs/object/lib/python3.10/site-packages/xArm_Python_SDK-1.11.6-py3.10.egg/xarm/x3/xarm.py", line 44, in __init__
+    Base.__init__(self, port, is_radian, do_not_open, **kwargs)
+  File "/opt/anaconda3/envs/object/lib/python3.10/site-packages/xArm_Python_SDK-1.11.6-py3.10.egg/xarm/x3/base.py", line 231, in __init__
+    self.connect()
+  File "/opt/anaconda3/envs/object/lib/python3.10/site-packages/xArm_Python_SDK-1.11.6-py3.10.egg/xarm/x3/base.py", line 821, in connect
+    raise Exception('connect socket failed')
+Exception: connect socket failed
